@@ -38,7 +38,7 @@ public class GamesController : ControllerBase {
         return NoContent();
     }
 
-    [HttpPut("id")]
+    [HttpPut("{id}")]
     public ActionResult<Game> Update(int id, [FromBody] Game updated) {
         var game = GamesStore.Games.FirstOrDefault(g => g.Id == id);
         if (game is null) {

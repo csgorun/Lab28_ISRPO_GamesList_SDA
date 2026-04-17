@@ -11,6 +11,12 @@ public static class GamesStore {
             ReleaseYear = 2006,
         },
         new Game {
+            Id = 2,
+            Title = "The Witcher 3: Wild Hunt",
+            Genre = "RPG",
+            ReleaseYear = 2015,
+        },
+        new Game {
             Id = 3,
             Title = "Grand Theft Auto: San Andreas",
             Genre = "Action-adventure",
